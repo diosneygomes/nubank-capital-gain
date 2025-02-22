@@ -369,3 +369,39 @@ git archive --format=zip --output=./capital-gains.zip HEAD
      ```bash
      dotnet test
      ```
+---
+
+## Resumo: Ações de Compra e Venda
+
+#### **Quando você faz uma compra**:
+1. **Preço Médio Ponderado**:
+   - O preço médio ponderado é recalculado, levando em conta:
+     - O preço médio atual.
+     - A quantidade de ações que você já possui.
+     - O preço e a quantidade da nova compra.
+
+2. **Quantidade Total**:
+   - A quantidade total de ações aumenta com a quantidade adquirida.
+
+3. **Imposto**:
+   - Nenhum imposto é aplicado em operações de compra.
+
+---
+
+#### **Quando você faz uma venda**:
+1. **Preço Médio Ponderado**:
+   - **Não muda**. O custo médio das ações permanece o mesmo, porque nenhuma nova compra foi feita.
+
+2. **Quantidade Total**:
+   - A quantidade total de ações diminui com a quantidade vendida.
+
+3. **Lucro ou Prejuízo**:
+   - O lucro ou prejuízo é calculado comparando o preço de venda com o preço médio ponderado.
+
+4. **Imposto**:
+   - Se houve lucro:
+     - É aplicado **20% de imposto sobre o lucro líquido** (após deduzir prejuízos acumulados).
+   - Se houve prejuízo:
+     - O valor é acumulado para deduzir futuros lucros.
+
+---

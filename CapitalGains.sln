@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nubank.CapitalGains.CLI", "src\Nubank.CapitalGains.CLI\Nubank.CapitalGains.CLI.csproj", "{176FCEFC-C71C-433A-80E7-FB9936F40CBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nubank.CapitalGains.CLI.Tests", "src\Nubank.CapitalGains.CLI.Tests\Nubank.CapitalGains.CLI.Tests.csproj", "{96A43226-EDA3-4BE4-93E0-0DC0A07FA7BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{176FCEFC-C71C-433A-80E7-FB9936F40CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{176FCEFC-C71C-433A-80E7-FB9936F40CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{176FCEFC-C71C-433A-80E7-FB9936F40CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{176FCEFC-C71C-433A-80E7-FB9936F40CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A43226-EDA3-4BE4-93E0-0DC0A07FA7BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A43226-EDA3-4BE4-93E0-0DC0A07FA7BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A43226-EDA3-4BE4-93E0-0DC0A07FA7BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A43226-EDA3-4BE4-93E0-0DC0A07FA7BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86809124-2FD4-45F0-800E-1643A419B1E1}
+	EndGlobalSection
+EndGlobal
